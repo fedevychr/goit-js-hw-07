@@ -186,7 +186,7 @@ form.login-form button {
   background: #4e75ff;
   border: none;
   width: fit-content;
-  color: #FFF;
+  color: #fff;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -198,3 +198,99 @@ form.login-form button:focus {
   border-color: #6c8cff;
 }
 /* task-4 */
+
+/* task-5*/
+div.widget p {
+  font-size: 16px;
+}
+
+.widget button.change-color {
+  font-size: 16px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  transition: background-color 250ms linear;
+}
+
+.widget button.change-color:hover,
+.widget button.change-color:focus {
+  background-color: #6c8cff;
+}
+
+/* task-5*/
+
+/* task-6*/
+#controls {
+  max-width: 486px;
+  padding: 32px;
+  margin: 0 auto;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  display: flex;
+}
+
+#controls input {
+  width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  transition: border-color 250ms linear;
+}
+
+#controls input:hover {
+  border-color: #000000;
+}
+
+#controls input:focus-visible {
+  outline: none;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms linear;
+}
+
+button[data-create] {
+  background-color: #4e75ff;
+}
+
+button[data-create]:hover,
+button[data-create]:focus {
+  background-color: #6c8cff;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+button[data-destroy]:hover,
+button[data-destroy]:focus {
+  background-color: #ff7070;
+}
+
+#boxes {
+  max-width: 486px;
+  padding: 32px;
+  margin: 16px auto 0;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* task-6*/
