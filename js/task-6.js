@@ -36,7 +36,7 @@ const createBoxes = amount => {
 
 const create = () => {
   const amount = Number(countOfDiv.value);
-  if (amount <= 100 && amount > 0 && amount !== NaN) {
+  if (amount <= 100 && amount > 0) {
     createBoxes(amount);
     countOfDiv.value = '';
   }

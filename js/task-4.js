@@ -7,11 +7,12 @@
 // При сабміті форми виведи об'єкт із введеними даними в консоль і очисти значення полів форми методом reset.
 
 const registerForm = document.querySelector('.login-form');
-const userData = { email: '', password: '' };
 
 const onSubmit = event => {
   event.preventDefault();
-  const email = event.target.elemets.email.value.trim();
+  const userData = { email: '', password: '' };
+  const email = event.target.elements.email.value.trim();
+  const password = event.target.elements.password.value.trim();
   if (email && password) {
     userData.email = email;
     userData.password = password;
